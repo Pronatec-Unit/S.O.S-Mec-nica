@@ -2,7 +2,7 @@
 App para emergências mecânicas.
 
 
-## Equipe: Geeks
+##Equipe: Geeks
 Integrante: Daniela Oliveira
 Integrante: Daniela Maria
 Integrante: Isac Silva
