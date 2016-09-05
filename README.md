@@ -6,7 +6,7 @@ App para emergências mecânicas.
 1. Integrante: Daniela Oliveira
 2. Integrante: Daniela Maria
 3. Integrante: Isac Silva
-4. ntegrante: Laurie Annie
+4. Integrante: Laurie Annie
 5. Integrante: Leidiane Maria
 
 ## Cronograma
