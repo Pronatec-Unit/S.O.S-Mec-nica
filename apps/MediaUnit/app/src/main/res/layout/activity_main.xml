@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.eloize.mediaunit.MainActivity"
+    android:id="@+id/fundoTela">
+
+    <TextView
+        android:text="Unidade I"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView27"
+        android:textSize="24sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <Button
+        android:text="Limpar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/limpar"
+        android:textSize="18sp"
+        android:layout_alignBaseline="@+id/calcular"
+        android:layout_alignBottom="@+id/calcular"
+        android:layout_toRightOf="@+id/calcular"
+        android:layout_toEndOf="@+id/calcular" />
+
+    <TextView
+        android:text="STATUS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/media"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:id="@+id/status"
+        android:textSize="30sp"
+        android:textColor="?attr/colorControlNormal"
+        android:textAlignment="center" />
+
+    <TextView
+        android:text="Geek Development"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/textView6"
+        android:textSize="10sp"
+        android:textColor="?android:attr/textColorPrimaryDisableOnly" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_below="@+id/textView27"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/uniNota1" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_below="@+id/textView32"
+        android:layout_alignRight="@+id/uniNota1"
+        android:layout_alignEnd="@+id/uniNota1"
+        android:id="@+id/uniNota2" />
+
+    <TextView
+        android:text="Unidade II"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView32"
+        android:textSize="24sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginTop="34dp"
+        android:textAlignment="center"
+        android:layout_below="@+id/uniNota1"
+        android:layout_alignLeft="@+id/textView27"
+        android:layout_alignStart="@+id/textView27" />
+
+    <Button
+        android:text="Calcular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/calcular"
+        android:textSize="18sp"
+        android:layout_marginTop="59dp"
+        android:layout_below="@+id/uniNota2"
+        android:layout_alignLeft="@+id/uniNota2"
+        android:layout_alignStart="@+id/uniNota2" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/media"
+        android:width="70dp"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_alignBaseline="@+id/textView38"
+        android:layout_alignBottom="@+id/textView38"
+        android:layout_toRightOf="@+id/calcular"
+        android:layout_toEndOf="@+id/calcular" />
+
+    <TextView
+        android:text="Média:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:id="@+id/textView38"
+        android:textSize="18sp"
+        android:textColor="?android:attr/textColorPrimaryDisableOnly"
+        android:layout_below="@+id/limpar"
+        android:layout_toLeftOf="@+id/media"
+        android:layout_toStartOf="@+id/media" />
+
+    <Button
+        android:text="Sobre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:textAllCaps="false"
+        android:background="?attr/colorPrimary"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:layout_above="@+id/textView6"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>
