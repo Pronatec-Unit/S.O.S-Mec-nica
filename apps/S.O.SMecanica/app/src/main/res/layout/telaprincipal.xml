@@ -59,7 +59,7 @@
            <Button
                android:layout_width="360px"
                android:layout_height="160px"
-               android:text="Combusíveis"
+               android:text="Combustíveis"
                android:id="@+id/button4"
                android:layout_alignTop="@+id/button3"
                android:layout_toRightOf="@+id/button3"

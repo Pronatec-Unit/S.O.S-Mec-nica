@@ -1,5 +1,6 @@
 package com.example.isac.sosmecanica;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -14,22 +15,28 @@ public class TelaPrincipal extends AppCompatActivity {
     }
 
     public void chamarPneu(View v){
-        setContentView(R.layout.mappneus);
+        Intent tela = new Intent(TelaPrincipal.this,MapPneu.class);
+        startActivity(tela);
     }
     public void chamarOleos(View v){
-        setContentView(R.layout.mapoleos);
+        Intent tela = new Intent(TelaPrincipal.this,MapOleos.class);
+        startActivity(tela);
     }
     public void chamarMotor(View v){
-        setContentView(R.layout.mapmotor);
+        Intent tela = new Intent(TelaPrincipal.this,MapMotor.class);
+        startActivity(tela);
     }
     public void chamarComb(View v){
-        setContentView(R.layout.mapcomb);
+        Intent tela = new Intent(TelaPrincipal.this,MapComb.class);
+        startActivity(tela);
     }
     public void chamarGhincho(View v){
-        setContentView(R.layout.mapguincho);
+        Intent tela = new Intent(TelaPrincipal.this,MapGuin.class);
+        startActivity(tela);
     }
     public void chamarItens(View v){
-        setContentView(R.layout.mapitens);
+        Intent tela = new Intent(TelaPrincipal.this,MapItens.class);
+        startActivity(tela);
     }
 
     public void sair(View v){

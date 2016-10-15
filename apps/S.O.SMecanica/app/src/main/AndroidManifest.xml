@@ -24,7 +24,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".TelaPrincipal"
             android:label="@string/app_name">
@@ -32,6 +31,12 @@
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
+        <activity android:name=".MapOleos" />
+        <activity android:name=".MapPneu" />
+        <activity android:name=".MapMotor" />
+        <activity android:name=".MapComb" />
+        <activity android:name=".MapGuin" />
+        <activity android:name=".MapItens"></activity>
     </application>
 
 </manifest>
