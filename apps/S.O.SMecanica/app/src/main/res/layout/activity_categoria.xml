@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/activity_categoria"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context="com.example.isacs.sosmecanica.CategoriaActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:text="Peneu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="75dp"
+            android:id="@+id/btn_pneu"
+            android:width="@dimen/activity_horizontal_margin"
+            android:textColor="@android:color/background_light"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="@color/colorPrimary"
+            android:onClick="PostsPneu"/>
+
+        <Button
+            android:text="Óleos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_pneu"
+            android:layout_alignLeft="@+id/btn_pneu"
+            android:layout_alignStart="@+id/btn_pneu"
+            android:id="@+id/btn_oleos"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:textColor="@android:color/black"
+            android:onClick="PostsOleos"/>
+
+        <Button
+            android:text="Motor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_oleos"
+            android:layout_alignLeft="@+id/btn_oleos"
+            android:layout_alignStart="@+id/btn_oleos"
+            android:id="@+id/btn_motor"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:textColor="@android:color/background_light"
+            android:background="@color/colorPrimary"
+            android:onClick="PostsMotor"/>
+
+        <Button
+            android:text="Combustíveis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_motor"
+            android:layout_alignRight="@+id/btn_motor"
+            android:layout_alignEnd="@+id/btn_motor"
+            android:id="@+id/btn_comb"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textColor="@android:color/black"
+            android:onClick="PostsComb"/>
+
+        <Button
+            android:text="Guincho"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_comb"
+            android:layout_alignLeft="@+id/btn_comb"
+            android:layout_alignStart="@+id/btn_comb"
+            android:id="@+id/btn_guincho"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:textColor="@android:color/background_light"
+            android:background="@color/colorPrimary"
+            android:onClick="PostsGuincho"/>
+
+        <Button
+            android:text="Itens de segurança"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_guincho"
+            android:layout_alignLeft="@+id/btn_guincho"
+            android:layout_alignStart="@+id/btn_guincho"
+            android:id="@+id/btn_itens"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:textColor="@android:color/black"
+            android:onClick="PostsItens"/>
+    </RelativeLayout>
+</LinearLayout>

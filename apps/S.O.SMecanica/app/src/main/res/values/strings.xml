@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">S.O.S Mecanica</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Opções</string>
+
+    <string-array name="categorias">
+        <item>pneu</item>
+        <item>oleos</item>
+        <item>motor</item>
+        <item>combustiveis</item>
+        <item>guincho</item>
+        <item>itens de segurança</item>
+    </string-array>
+</resources>

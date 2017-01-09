@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_primeiros"
+            android:icon="@drawable/icon_socorros"
+            android:title="Primeiros Socorros" />
+        <item
+            android:id="@+id/nav_sos"
+            android:icon="@drawable/icon_gritar"
+            android:title="Gritar 'S.O.S'" />
+        <item
+            android:id="@+id/nav_socorrer"
+            android:icon="@drawable/icon_sos"
+            android:title="SOCORRER" />
+    </group>
+
+    <item android:title="Informações">
+        <menu>
+            <item
+                android:id="@+id/nav_politica"
+                android:icon="@drawable/icon_politica"
+                android:title="Politica de Privacidade" />
+            <item
+                android:id="@+id/nav_termos"
+                android:icon="@drawable/icon_termos"
+                android:title="Termos de Uso" />
+        </menu>
+    </item>
+
+</menu>

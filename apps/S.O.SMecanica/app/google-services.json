@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1065033285512",
+    "firebase_url": "https://sosmecanica-27349.firebaseio.com",
+    "project_id": "sosmecanica-27349",
+    "storage_bucket": "sosmecanica-27349.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1065033285512:android:a7b1194f508a3d22",
+        "android_client_info": {
+          "package_name": "com.example.isacs.sosmecanica"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1065033285512-22ujnid9g0m9nde54ptmkhljlmkvmrld.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFHRcWO--itWxIrJMc4rjISo7843u4TYw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
